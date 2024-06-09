@@ -1,0 +1,61 @@
+:root {
+    --main-color: #17A2B8;
+}
+
+.Login {
+    background-color: #24353F;
+    height: 100vh;
+}
+
+#login-container {
+    color: whitesmoke;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 55%;
+    /* height: 55%; */
+    padding-inline: 50px;
+    /*   margin-bottom: 15rem; */
+}
+
+#login-container h1 {
+    text-align: center;
+    color: var(--main-color);
+    margin-block-start: 40px;
+    margin-block-end: 30px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+input::placeholder {
+    color: rgba(245, 245, 245, 0.508) !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+#login {
+    color: var(--main-color) !important;
+
+}
+
+#login:hover {
+    color: white !important;
+}
+
+#signup {
+    color: var(--main-color) !important;
+}
+
+#signup:hover {
+    color: white !important;
+}
+
+/* 
+#login-container input {
+    color: #B6B6B2
+} */
